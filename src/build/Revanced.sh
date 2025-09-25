@@ -10,8 +10,6 @@ revanced_dl(){
 	# Patch YouTube:
 	get_patches_key "youtube-revanced"
 	get_apk "com.google.android.youtube" "youtube" "youtube" "google-inc/youtube/youtube" "Bundle_extract"
-	split_editor "youtube" "youtube"
-	patch "youtube" "revanced"
 	# Patch Youtube Arm64-v8a
 	get_patches_key "youtube-revanced"
 	split_editor "youtube" "youtube-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
@@ -32,10 +30,6 @@ revanced_dl(){
 	get_patches_key "youtube-revanced"
 	split_editor "youtube-lite" "youtube-lite-arm64-v8a" "include" "split_config.arm64_v8a split_config.en split_config.xxxhdpi"
 	patch "youtube-lite-arm64-v8a" "revanced"
-	# Patch YouTube Lite Armeabi-v7a:
-	get_patches_key "youtube-revanced"
-	split_editor "youtube-lite" "youtube-lite-armeabi-v7a" "include" "split_config.armeabi_v7a split_config.en split_config.xxxhdpi"
-	patch "youtube-lite-armeabi-v7a" "revanced"
 }
 4() {
 	revanced_dl

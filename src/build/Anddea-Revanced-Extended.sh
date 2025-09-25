@@ -5,11 +5,9 @@ source src/build/utils.sh
 dl_gh "revanced-patches" "anddea" "latest"
 dl_gh "revanced-cli" "inotia00" "latest"
 
-# Patch YouTube:
-get_patches_key "youtube-rve-anddea"
-get_apk "com.google.android.youtube" "youtube-stable" "youtube" "google-inc/youtube/youtube" "Bundle_extract"
 # Patch Youtube Arm64-v8a
 get_patches_key "youtube-rve-anddea"
+get_apk "com.google.android.youtube" "youtube-stable" "youtube" "google-inc/youtube/youtube" "Bundle_extract"
 split_editor "youtube-stable" "youtube-stable-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
 patch "youtube-stable-arm64-v8a" "anddea" "inotia"
 

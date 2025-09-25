@@ -68,7 +68,3 @@ patch "reddit-arm64-v8a" "revanced-extended" "inotia"
 get_patches_key "youtube-revanced-extended"
 split_editor "youtube" "youtube-lite-arm64-v8a" "include" "split_config.arm64_v8a split_config.en split_config.xhdpi split_config.xxxhdpi"
 patch "youtube-lite-arm64-v8a" "revanced-extended" "inotia"
-# Patch YouTube Lite Armeabi-v7a:
-get_patches_key "youtube-revanced-extended"
-split_editor "youtube" "youtube-lite-armeabi-v7a" "include" "split_config.armeabi_v7a split_config.en split_config.xhdpi split_config.xxxhdpi"
-patch "youtube-lite-armeabi-v7a" "revanced-extended" "inotia"

@@ -14,7 +14,7 @@ patch "youtube-beta-arm64-v8a" "revanced-extended" "inotia"
 # Patch YouTube Music Extended:
 # Arm64-v8a
 get_patches_key "youtube-music-revanced-extended"
-get_apk "com.google.android.apps.youtube.music" "youtube-beta-music-arm64-v8a" "youtube-music" "google-inc/youtube-music/youtube-music" "arm64-v8a"
+get_apk "com.google.android.apps.youtube.music" "youtube-music-beta-arm64-v8a" "youtube-music" "google-inc/youtube-music/youtube-music" "arm64-v8a"
 patch "youtube-music-beta-arm64-v8a" "revanced-extended" "inotia"
 
 # Patch Reddit:
